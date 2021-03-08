@@ -1,0 +1,57 @@
+<!--pages/demo04/demo04.wxml-->
+<form class="page__bd" bindsubmit="formSubmit" bindreset="formReset">
+        
+    
+        <picker mode="multiSelector" bindchange="bindCustomPickerChange" bindcolumnchange="bindCustomPickerColumnChange"
+            value="{{customIndex}}" range="{{onlyArray}}">
+            <view class="list">
+                <view class="t-head">
+                    <view class="th">
+                        工段
+                    </view>
+                    <view class="th">
+                        型号
+                    </view>
+                    <view class="th">
+                        数量
+                    </view>
+                    <view class="th">
+                        操作
+                    </view>
+                </view>
+        
+                <view class="t-body">
+                    <view class='tb1'>
+                        <view name = 'area' wx:for='{{area}}' wx:key="index" data-index="{{index}}">
+                            {{item}}
+                    </view>
+                    </view>
+        
+                    <view class='tb2'>
+                        <view name = 'model' wx:for='{{model}}' wx:key="index" data-index="{{index}}">
+                            {{item}}
+                    </view>
+                    </view>
+                    <view class="tb3">
+                        <view name = 'modelNum' wx:for='{{modelNum}}' wx:key="index" data-index="{{index}}">
+                            {{item}}
+                    </view>
+                    </view>
+                    <view class="tb4">
+                        <button class="btnDel" wx:for='{{del}}' wx:key="index" data-index="{{index}}" bindtap="delelement">
+                            {{item}}
+                        </button>
+                    </view>
+                </view>
+            </view>
+        </picker>
+        <view class="btn-area">
+        
+            <button class = 'btn_sub' form-type="submit">提交</button>
+            
+            <button class = 'btn_sub'  form-type="reset">重置</button>
+            
+            </view>
+        
+        </form>
+        

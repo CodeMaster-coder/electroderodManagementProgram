@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/demo03/demo03",
+    "pages/demo01/demo01",
+    "pages/demo02/demo02",
+    "pages/demo04/demo04",
+    "pages/demo05/demo05",
+    "pages/lylogin/lylogin",
+    "pages/bklogin/bklogin"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "PFH2B电极杆管理系统",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
