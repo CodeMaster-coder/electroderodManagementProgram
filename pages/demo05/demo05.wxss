@@ -76,7 +76,7 @@ border-radius: 10rpx;
 .select_box {
   background-color: #fff;
   padding: 0 20rpx;
-  width: 200rpx;
+  width: 220rpx;
 
   position: relative;
   right: 0;

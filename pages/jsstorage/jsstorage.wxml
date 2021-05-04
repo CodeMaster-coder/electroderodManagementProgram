@@ -1,0 +1,54 @@
+<!--pages/jsstorage/jsstorage.wxml-->
+<view class='top'>
+    <view class='top-text'> 技术股库存</view>
+    <button class = 'btnquery' bindtap = "query">查询</button>
+   </view>
+   <view class="title" >
+       <view class="subtitle" >
+          型号 
+       </view>
+       <view class="subtitle" catchtap = "orderByStorage">
+        库存
+        <view class = 'triangle'>
+            <image src="https://i.loli.net/2021/04/04/zwaQR4jbUKHJldF.png" class="bc_img"></image>
+            <image src="https://i.loli.net/2021/04/04/dR2xW974e1vDiog.png" class="bc_img"></image>
+    </view>
+     </view>
+
+     <view class="subtitle" catchtap = "orderBySaftystorage">
+        安全余量 
+        <view class = 'triangle'>
+            <image src="https://i.loli.net/2021/04/04/zwaQR4jbUKHJldF.png" class="bc_img"></image>
+            <image src="https://i.loli.net/2021/04/04/dR2xW974e1vDiog.png" class="bc_img"></image>
+    </view>
+     </view>
+     <view class="subtitle" catchtap = "orderByStoragestatus">
+        状态
+        <view class = 'triangle'>
+            <image src="https://i.loli.net/2021/04/04/zwaQR4jbUKHJldF.png" class="bc_img"></image>
+            <image src="https://i.loli.net/2021/04/04/dR2xW974e1vDiog.png" class="bc_img"></image>
+    </view>
+   </view>
+   </view>
+<view class="content">
+<view class = 'subcontent1'>
+    <view  wx:for = '{{model}}' wx:key = 'unique'>
+        {{item}}
+    </view>
+</view>
+<view class = 'subcontent2' >
+    <view wx:for = '{{storage}}' wx:key = 'unique'>
+        {{item}}
+    </view>
+</view>
+<view class = 'subcontent3' >
+    <view wx:for = '{{saftyStorage}}' wx:key = 'unique'>
+        {{item}}
+    </view>
+</view>
+<view class = 'subcontent4' >
+    <view wx:for = '{{storageStatus}}' wx:key = 'unique'>
+        {{item}}
+    </view>
+</view>
+</view>

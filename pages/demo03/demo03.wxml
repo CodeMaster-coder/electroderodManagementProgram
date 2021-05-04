@@ -6,10 +6,10 @@
 
 
 <view class='storage'>
-    <navigator url="/pages/demo01/demo01">
+    <navigator url="/pages/search/search">
         <image src="https://i.loli.net/2021/03/08/UwHZzeDNtia59oA.png" class="storage-img">
         </image>
-        <text>
+        <text class="text">
             库存
         </text>
     </navigator>
@@ -19,7 +19,7 @@
     <navigator url="/pages/bklogin/bklogin">
         <image src="https://i.loli.net/2021/03/08/qLaRPrmhkD4X5vO.png" class="storage-img">
         </image>
-        <text>
+        <text class="text">
             补库
         </text>
     </navigator>
@@ -28,7 +28,7 @@
     <navigator url="/pages/lylogin/lylogin">
         <image src="https://i.loli.net/2021/03/08/6wPzs2Tr3fAijqF.png" class="storage-img">
         </image>
-        <text>
+        <text class="text">
             领用
         </text>
     </navigator>
@@ -37,7 +37,7 @@
     <navigator url="/pages/demo05/demo05">
         <image src="https://i.loli.net/2021/03/08/1geHZWPT5COuSAc.png" class="storage-img">
         </image>
-        <text>
+        <text class="text">
             更换
         </text>
     </navigator>

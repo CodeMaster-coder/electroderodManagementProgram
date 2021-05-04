@@ -1,0 +1,38 @@
+<!--pages/search/search.wxml-->
+<view class = 'box1'>
+    <navigator url="/pages/demo01/demo01" class='storage'>
+        <image src="https://i.loli.net/2021/03/15/lv34kLYCDJPROrn.png" class="storage-img">
+        </image>
+        <view class="text">
+        <text>
+            按区域查询
+        </text>
+    </view>
+    </navigator>
+
+</view>
+<view class = 'box2'>
+    <navigator url="/pages/modelSearch/modelSearch" class='storage'>
+        <image src="https://i.loli.net/2021/03/15/7oDk3gGdStbpQCI.png" class="storage-img1">
+        </image>
+        <view class="text">
+        <text>
+            按型号查询
+        </text>
+    </view>
+    </navigator>
+
+</view>
+<view class = 'box2'>
+    <navigator url="/pages/jslogin/jslogin" class='storage'>
+        <image src="https://i.loli.net/2021/03/15/Pwdvx1GRYJB3sHf.png" class="storage-img1">
+        </image>
+        <view class="text">
+        <text>
+            技术股库存
+        </text>
+    </view>
+    </navigator>
+
+</view>
+

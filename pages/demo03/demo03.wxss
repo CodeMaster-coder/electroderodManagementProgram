@@ -32,11 +32,12 @@
       width: 120rpx;
       height: 120rpx;
   }
-  text{
+  .text{
       position: relative;
       display: inline-block;
       top: 90rpx;
       left: 34rpx;
   }
+
   
   

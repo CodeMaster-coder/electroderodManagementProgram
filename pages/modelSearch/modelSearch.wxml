@@ -1,0 +1,46 @@
+<!--pages/modelSearch/modelSearch.wxml-->
+<!--型号输入框-->
+<view class="top">
+    <input class='top-text' placeholder="输入查询型号" value="{{inputVal}}"  type="text" bindinput="inputTyping"> </input>
+</view>
+<!--搜索下拉框-->
+<scroll-view class='scroll-view' wx:if='{{viewShowed}}' scroll-y>
+    <view wx:for="{{carList}}" wx:key="index" class="msg-item " >
+      <view class='user-name' bindtap='name' data-index="{{index}}" >{{item}}</view>
+    </view>
+    </scroll-view>
+<!--查询按钮-->
+    <button class = 'btnquery' bindtap = "query">查询</button>
+<!--标题栏-->
+    <view class="list">
+        <view class="t-head">
+            <view class="th">
+                工段
+            </view>
+            <view class="th">
+                型号
+            </view>
+            <view class="th">
+                数量
+            </view>
+            </view>
+            <view class="t-body">
+                <view class='tb1'>
+                    <view name = 'area' wx:for='{{area}}' wx:key="index" data-index="{{index}}">
+                        {{item}}
+                </view>
+                </view>
+    
+                <view class='tb2'>
+                    <view name = 'model' wx:for='{{model}}' wx:key="index" data-index="{{index}}">
+                        {{item}}
+                </view>
+                </view>
+                <view class="tb3">
+                    <view name = 'storage' wx:for='{{storage}}' wx:key="index" data-index="{{index}}">
+                        {{item}}
+                </view>
+            </view>
+        </view>
+            </view>
+
