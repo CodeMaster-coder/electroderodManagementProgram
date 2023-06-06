@@ -51,8 +51,9 @@ Page({
       number: []
     });
     wx.request({
-          url: 'https://www.zqzqsmile.xyz/kucun/login',
+          url: 'https://www.liuke.xyz/electrode/login',
           data:{
+            code:'substorage',
             area:JSON.stringify(this.data.area_name)},
           method:'POST',
           header: {

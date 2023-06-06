@@ -57,14 +57,14 @@ Page({
               { name: '5250R01SK1', num: [{ name: '389247' },{ name: '389248' },] }, 
               { name: '5250R02SK1', num: [{ name: '378167' },{ name: '1974-13' },{ name: 'H-22' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: '5250R03SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' },] }, 
-              { name: '5250R04SK1', num: [{ name: '401767' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-5' },] }, 
+              { name: '5250R04SK1', num: [{ name: '401767' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-5' },] }, 
               { name: '5250R05SK1', num: [{ name: '372008' },{ name: '1974-12' },{ name: '1974-1' },] }, 
               { name: '5250R06SK1', num: [{ name: '347819' },{ name: '1973-8' },{ name: '1973-1' },{ name: '324918-3' },] }, 
               { name: '5260R01SK1', num: [{ name: '401787' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
               { name: '5260R02SK1', num: [{ name: '401787' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
               { name: '5260R04SK1', num: [{ name: '372008' },{ name: '1974-12' },{ name: '1974-1' },] }, 
               { name: '5260R05SK1', num: [{ name: '347819' },{ name: '1973-8' },{ name: '1973-1' },{ name: '324918-3' },] }, 
-              { name: '5270R01SK1', num: [{ name: '401767' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-5' },] }, 
+              { name: '5270R01SK1', num: [{ name: '401767' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-5' },] }, 
               { name: '5270R02SK1', num: [{ name: '389247' },{ name: '389248' },] }, 
               { name: '5270R03SK1', num: [{ name: '378167' },{ name: '1974-13' },{ name: 'H-22' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: '5270R04SK1', num: [{ name: '378223' },{ name: '1974-13' },{ name: '1974-1' },] }, 
@@ -74,17 +74,17 @@ Page({
           {
             name: '总拼2',
             product: [
-              { name: '5330R01SK1', num: [{ name: '378197' },{ name: '378198' }, ] }, 
-              { name: '5330R02SK1', num: [{ name: '378197' },{ name: '378198' }, ] }, 
+              { name: '5330R01SK1', num: [{ name: '378197' },{ name: '378198' }, { name: '393104' }, ] }, 
+              { name: '5330R02SK1', num: [{ name: '378197' },{ name: '378198' }, { name: '393104' }, ] }, 
               { name: '5330R03SK1', num: [{ name: '401780' },{ name: '401779' }, ] }, 
               { name: '5330R04SK1', num: [{ name: '401780' },{ name: '401779' }, ] }, 
-              { name: '5330R05SK1', num: [{ name: '378197' },{ name: '378198' }, ] }, 
-              { name: '5330R06SK1', num: [{ name: '378197' },{ name: '378198' }, ] }, 
+              { name: '5330R05SK1', num: [{ name: '378197' },{ name: '378198' }, { name: '393104' },] }, 
+              { name: '5330R06SK1', num: [{ name: '378197' },{ name: '378198' }, { name: '393104' },] }, 
               { name: '5330R07SK1', num: [{ name: '1974-9' },{ name: '1974-12' },{ name: '1974-1' }, ] }, 
               { name: '5330R08SK1', num: [{ name: '378167' },{ name: '324918-6' },{ name: '1974-13' },{ name: '1974-1' },{ name: 'H-22' }, ] }, 
               { name: '5330R09SK1', num: [{ name: '378204' },{ name: '358860' },] }, 
-              { name: '5340R01SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
-              { name: '5340R02SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
+              { name: '5340R01SK1', num: [{ name: '389266' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' }, ] }, 
+              { name: '5340R02SK1', num: [{ name: '389266' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' }, ] }, 
               { name: '5340R03SK1', num: [{ name: '380306' },{ name: '1974-13' },{ name: '1974-1' },{ name: 'H-23' }, ] }, 
               { name: '5340R04SK1', num: [{ name: '380306' },{ name: '1974-13' },{ name: '1974-1' },{ name: 'H-23' }, ] }, 
               { name: '5350R01SK1', num: [{ name: '1973-7' },{ name: '351512' },{ name: '1973-1' }, ] }, 
@@ -254,12 +254,12 @@ Page({
               { name: '1770R02SK1', num: [{ name: '389235' },{ name: '1974-12' },{ name: '1974-1' },] }, 
               { name: '1830R01SK1', num: [{ name: '367369' },{ name: '1974-1' },{ name: '1974-11' },{ name: '358799' },] }, 
               { name: '1830R02SK1', num: [{ name: '367369' },{ name: '1974-1' },{ name: '1974-11' },{ name: '358799' },] }, 
-              { name: '1840R01SK1', num: [{ name: '367369' },{ name: '1974-1' },{ name: '1974-11' },{ name: '358799' },] }, 
+              { name: '1840R01SK1', num: [{ name: '367369' },{ name: '1974-1' },{ name: '1974-12' },{ name: '358799' },] }, 
               { name: '1850R01SK1', num: [{ name: '1974-12' },{ name: '389271' },{ name: '1974-1' },] }, 
               { name: '1850R02SK1', num: [{ name: '389233' },{ name: '1974-1' },{ name: '1974-13' },{ name: '324918-6' },{ name: 'H-24' }, ] }, 
               { name: '1850R03SK1', num: [{ name: '389233' },{ name: '1974-1' },{ name: '1974-11' },{ name: '324918-6' },{ name: 'H-24' }, ] }, 
               { name: '1860R01SK1', num: [{ name: '374889' },{ name: '1974-1' },{ name: '1974-12' },{ name: '324918-2' },] }, 
-              { name: '1875R01SK1', num: [{ name: '389307' },{ name: '1973-5' },{ name: '1973-1' },] }, 
+              { name: '1875R01SK1', num: [{ name: '389307' },{ name: '1973-5' },{ name: '1973-1' },{ name: '397843'},] }, 
               { name: '1880R01SK1', num: [{ name: '374889' },{ name: '1974-1' },{ name: '1974-12' },{ name: '324918-2' },] }, 
               { name: '1885R01SK1', num: [{ name: '374889' },{ name: '1974-1' },{ name: '1974-12' },{ name: '324918-2' },] }, 
               { name: '1895R01SK1', num: [{ name: '389235' },{ name: '1974-1' },{ name: '1974-12' },] }, 
@@ -321,7 +321,7 @@ Page({
               { name: '2030R03SK1', num: [{ name: '389149' }, { name: 'H-25' },   { name: '1974-11' },{ name: '1974-1' },] }, 
               { name: '2030R04SK1', num: [{ name: '389149' }, { name: 'H-25' },   { name: '1974-11' },{ name: '1974-1' },] }, 
               { name: '2040R01SK1', num: [{ name: '378130' }, { name: '1974-12' },{ name: '1974-1' },] }, 
-              { name: '2040R02SK1', num: [{ name: '347819' }, { name: '1074-11' },{ name: '1974-1' },] }, 
+              { name: '2040R02SK1', num: [{ name: '347819' }, { name: '1974-11' },{ name: '1974-1' },] }, 
               { name: '2050R01SK1', num: [{ name: '401759' }, { name: '1974-1' }, { name: '1974-12' },] }, 
               { name: '2050R02SK1', num: [{ name: '401759' }, { name: '1974-1' }, { name: '1974-12' },] }, 
               { name: '2080R01SK1', num: [{ name: 'H-22' },   { name: '17694' },  { name: '11376' },] }, 
@@ -370,10 +370,11 @@ Page({
               { name: '3210R02SK1', num: [{ name: '378183' },{ name: '1974-11' },{ name: '1974-1' },   { name: '' },] }, 
               { name: '3210R03SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },   { name: '324918-6' },] }, 
               { name: '3210R04SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },   { name: '324918-6' },] }, 
-              { name: '3220R01SK1', num: [{ name: '401762' },{ name: '1974-10' },{ name: '1974-1' },   { name: '314918-5' },] }, 
-              { name: '3220R02SK1', num: [{ name: '381735' },{ name: '1974-10' },{ name: '1974-1' },   { name: '314918-5' },] }, 
+              { name: '3220R01SK1', num: [{ name: '401762' },{ name: '1974-10' },{ name: '1974-1' },   { name: '324918-5' },] }, 
+              { name: '3220R02SK1', num: [{ name: '381735' },{ name: '1974-10' },{ name: '1974-1' },   { name: '324918-5' },] }, 
               { name: '3220R03SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '324918-2' }, { name: '1974-1' },] }, 
               { name: '3220R04SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '324918-2' }, { name: '1974-1' },] }, 
+              { name: '3220R06SK1', num: [{ name: '381354' },{ name: '381354' }] }, 
               { name: '3230R01SK1', num: [{ name: '380236' },{ name: '1974-12' },{ name: '1974-1' },   { name: '324918-1' },] }, 
               { name: '3230R02SK1', num: [{ name: '380236' },{ name: '1974-12' },{ name: '1974-1' },   { name: '324918-1' },] }, 
               { name: '3230R03SK1', num: [{ name: '389301' },{ name: '1973-2' },  ] }, 
@@ -647,6 +648,8 @@ Page({
               { name: 'S230R08SK1', num: [{ name: '367369' }, { name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' }, ] }, 
               { name: 'S230R09SK1', num: [{ name: '381735' }, { name: '1974-10' },{ name: '1974-1' },{ name: '324918-5' }, ] }, 
               { name: 'S230R10SK1', num: [{ name: '381735' }, { name: '1974-10' },{ name: '1974-1' },{ name: '324918-5' }, ] }, 
+              { name: 'S240R01SK1', num: [{ name: '1974-12' },{ name: '1974-1' }, { name: '360063' },] }, 
+              { name: 'S240R02SK1', num: [{ name: '1974-12' },{ name: '1974-1' }, { name: '360063' },] }, 
               { name: 'S240R03SK1', num: [{ name: '1974-12' },{ name: '1974-1' }, { name: '409265' },] }, 
               { name: 'S240R04SK1', num: [{ name: '1974-12' },{ name: '1974-1' }, { name: '409265' },] }, 
               { name: 'S250R01SK1', num: [{ name: '381735' }, { name: '1974-10' },{ name: '1974-1' },{ name: '324918-5' }, ] }, 
@@ -671,8 +674,8 @@ Page({
             product: [
               { name: 'S330R01SK1', num: [{ name: '393145' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
               { name: 'S330R02SK1', num: [{ name: '393145' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
-              { name: 'S330R03SK1', num: [{ name: '409295' },{ name: '393123' }, { name: 'H-23' },   ] }, 
-              { name: 'S330R04SK1', num: [{ name: '409295' },{ name: '393123' }, { name: 'H-23' },   ] }, 
+              { name: 'S330R03SK1', num: [{ name: '409295' },{ name: '395169' },    ] }, 
+              { name: 'S330R04SK1', num: [{ name: '409295' },{ name: '395169' },    ] }, 
               { name: 'S330R05SK1', num: [{ name: '393104' },{ name: '393102' },  ] }, 
               { name: 'S330R06SK1', num: [{ name: '393104' },{ name: '393102' },  ] }, 
               { name: 'S330R07SK1', num: [{ name: '389286' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
@@ -682,6 +685,8 @@ Page({
               { name: 'S350R02SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: 'S350R03SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: 'S350R04SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
+              { name: 'S350R05SK1', num: [{ name: '395169' },{ name: '1974-12' },{ name: '1974-1' },    ] }, 
+              { name: 'S350R06SK1', num: [{ name: '395169' },{ name: '1974-12' },{ name: '1974-1' },    ] },
               { name: 'S360R03SK1', num: [{ name: '395174' },{ name: '395172' }, ] }, 
               { name: 'S360R04SK1', num: [{ name: '395174' },{ name: '395172' }, ] }, 
               { name: 'S360R05SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
@@ -699,7 +704,11 @@ Page({
             name: '总拼3',
             product: [
               { name: 'S410R01SK1', num: [{ name: '406385' },{ name: '1973-6' },{ name: '1973-1' }, ] }, 
-              { name: 'S410R02SK1', num: [{ name: '406385' },{ name: '1973-6' },{ name: '1973-1' }, ] }, 
+              { name: 'S410R02SK1', num: [{ name: '406385' },{ name: '1973-6' },{ name: '1973-1' }, ] },
+              { name: 'S410R03SK1', num: [{ name: '393100' },{ name: '1974-13' },{ name: '1974-1' },{ name: 'H-21' }, ] }, 
+              { name: 'S410R04SK1', num: [{ name: '393100' },{ name: '1974-13' },{ name: '1974-1' },{ name: 'H-21' }, ] },  
+              { name: 'S460R01SK1', num: [{ name: '380323' },{ name: '1974-12' },{ name: '1974-1' }] }, 
+              { name: 'S460R04SK1', num: [{ name: '380323' },{ name: '1974-12' },{ name: '1974-1' }] },     
             ]
           },
           //总拼4
@@ -712,8 +721,8 @@ Page({
               { name: 'S510R06SK1', num: [{ name: '378167' },{ name: '1974-13' },{ name: '1974-1' }, { name: 'H-22' },{ name: '324918-6' },] }, 
               { name: 'S520R01SK1', num: [{ name: '378191' },{ name: '378192' }, { name: 'H-23' }, ] }, 
               { name: 'S520R02SK1', num: [{ name: '378191' },{ name: '378192' }, { name: 'H-23' }, ] }, 
-              { name: 'S520R05SK1', num: [{ name: '409292' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
-              { name: 'S520R06SK1', num: [{ name: '409292' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
+              { name: 'S520R05SK1', num: [{ name: '409292' },{ name: '1974-13' },{ name: '1974-1' }, { name: '363200' },] }, 
+              { name: 'S520R06SK1', num: [{ name: '409292' },{ name: '1974-13' },{ name: '1974-1' }, { name: '363200' },] }, 
               { name: 'S540R01SK1', num: [{ name: '389286' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
               { name: 'S540R02SK1', num: [{ name: '389286' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
               { name: 'S540R03SK1', num: [{ name: '360063' },{ name: '1974-12' },{ name: '1974-1' }, { name: '324918-6' },] }, 
@@ -772,10 +781,10 @@ Page({
               { name: 'J020R04SK1', num: [{ name: '347819' }, { name: '1974-11' },{ name: '1974-1' },{ name: '324918-3' },] }, 
               { name: 'J020R05SK1', num: [{ name: '376523' }, { name: '1974-12' },{ name: '1974-1' },] }, 
               { name: 'J020R06SK1', num: [{ name: '376523' }, { name: '1974-12' },{ name: '1974-1' },] }, 
-              { name: 'J005R01SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '314918-6' },] }, 
-              { name: 'J005R02SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '314918-6' },] }, 
-              { name: 'J010R01SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '314918-6' },] }, 
-              { name: 'J010R02SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '314918-6' },] }, 
+              { name: 'J005R01SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '324918-6' },] }, 
+              { name: 'J005R02SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '324918-6' },] }, 
+              { name: 'J010R01SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '324918-6' },] }, 
+              { name: 'J010R02SK1', num: [{ name: '389233' }, { name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' },{ name: '324918-6' },] }, 
               { name: 'J011R01SK1', num: [{ name: '381735' }, { name: '1974-10' },{ name: '1974-1' },{ name: '324918-5' },] }, 
               { name: 'J075R01SK1', num: [{ name: '1974-13' },{ name: '1973-7' }, { name: '333612' },{ name: '1974-1' },{ name: '1973-1' },] }, 
               { name: 'J076R01SK1', num: [{ name: '1974-13' },{ name: '1973-7' }, { name: '333612' },{ name: '1974-1' },{ name: '1973-1' },] }, 
@@ -847,6 +856,7 @@ Page({
             product: [
               { name: 'J200R01SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '324918-2' },{ name: '1974-1' }, ] }, 
               { name: 'J200R02SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '324918-2' },{ name: '1974-1' }, ] }, 
+              { name: 'J200R03SK1', num: [{ name: '389230' },{ name: '1974-13' },{ name: '1974-1' }, ] }, 
               { name: 'J200R04SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '324918-2' },{ name: '1974-1' }, ] }, 
             ]
           },
@@ -865,6 +875,8 @@ Page({
               { name: 'W080R01SK1', num: [{ name: '378167' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },{ name: 'H-22' }, ] }, 
               { name: 'W085R01SK1', num: [{ name: '389233' },{ name: '1974-13' },{ name: '1974-1' },{ name: 'H-24' }, ] }, 
               { name: 'W120R01SK1', num: [{ name: '1974-1' },{ name: '1974-11' }, ] }, 
+              { name: 'W510R01SK1', num: [{ name: '378156' },{ name: '378159' }, ] }, 
+              
             ]
           },
           //后盖
@@ -876,9 +888,9 @@ Page({
               { name: 'W260R01SK1', num: [{ name: '380306' },{ name: '1974-13' },{ name: '1974-1' },{ name: '333612' },{ name: 'H-23' }, ] }, 
               { name: 'W260R01SK2', num: [{ name: '380306' },{ name: '1974-13' },{ name: '1974-1' },{ name: '333612' },{ name: 'H-23' }, ] }, 
               { name: 'W280R01SK1', num: [{ name: '389243' },{ name: '378206' },{ name: 'H-23' },] }, 
-              { name: 'W330R01SK1', num: [{ name: '389125' },{ name: '389124' },{ name: '' }, ] }, 
-              { name: 'W330R02SK1', num: [{ name: '389125' },{ name: '389124' },{ name: '' }, ] }, 
-              { name: 'W340R01SK1', num: [{ name: '389125' },{ name: '389124' },{ name: '' }, ] }, 
+              { name: 'W330R01SK1', num: [{ name: '389125' },{ name: '389124' }, ] }, 
+              { name: 'W330R02SK1', num: [{ name: '389125' },{ name: '389124' }, ] }, 
+              { name: 'W340R01SK1', num: [{ name: '389125' },{ name: '389124' }, ] }, 
               { name: 'W350R01SK1', num: [{ name: '367369' },{ name: '1974-11' },{ name: '1974-1' },{ name: '358799' }, ] }, 
               { name: 'W420R01SK1', num: [{ name: '1974-12' },{ name: '1974-1' },{ name: '389266' },{ name: '324918-7' }, ] }, 
               { name: 'W420R02SK1', num: [{ name: '1974-12' },{ name: '1974-1' },{ name: '389266' },{ name: '324918-7' }, ] }, 
@@ -886,6 +898,23 @@ Page({
               { name: 'W445R01SK1', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' }, ] }, 
             ]
           },
+            //CSUV后盖
+            {
+              name: 'CSUV后盖',
+              product: [
+                { name: 'X015R01SK1', num: [{ name: '1974-13' },{ name: '1973-7' },{ name: '1974-1' },{ name: '1973-1' }, ] }, 
+                { name: 'X030R01SK1', num: [{ name: '393077' },{ name: '393079' }, ] }, 
+                { name: 'X060R01SK1', num: [{ name: '1974-12' },{ name: '380236' },{ name: '324918-1' },{ name: '1974-1' }, ] }, 
+                { name: 'X060R01SK2', num: [{ name: '1974-12' },{ name: '380236' },{ name: '324918-1' },{ name: '1974-1' }, ] }, 
+                { name: 'X070R01SK1', num: [{ name: '1974-13' },{ name: '378223' },{ name: '1974-1' }, ] }, 
+                { name: 'X070R01SK2', num: [{ name: '1974-13' },{ name: '378223' },{ name: '1974-1' }, ] }, 
+                { name: 'X085R01SK1', num: [{ name: '344431' },{ name: '389284' },] }, 
+                { name: 'X085R01SK2', num: [{ name: '1974-13' },{ name: '1973-7' },{ name: '324918-6' },{ name: '1974-1' },{ name: '1973-1' }, ] }, 
+                { name: 'X105R01SK1', num: [{ name: '1974-10' },{ name: '389278' },{ name: '324918-7' },{ name: '1974-1' },{ name: '1973-1' }, ] }, 
+                { name: 'X120R01SK1', num: [{ name: '1974-13' },{ name: '1973-7' },{ name: '324918-6' },{ name: '1974-1' },{ name: '1973-1' }, ] }, 
+               
+              ]
+            },
           //左前门
           {
             name: '左前门',
@@ -898,7 +927,7 @@ Page({
               { name: 'T190R01SK1', num: [{ name: '389239' },{ name: '389238' },{ name: 'H-24' }, ] },
               { name: 'T190R01SK2', num: [{ name: '374964' },{ name: '393097' },{ name: '324918-8' },{ name: 'H-20' }, ] },
               { name: 'T230R01SK1', num: [{ name: '393106' },{ name: '1974-10' },{ name: '1974-1' },{ name: '324918-5' }, ] },
-              { name: 'T250R01SK1', num: [{ name: '389212' },{ name: '1974-10' },{ name: '1974-1' },{ name: '324918-7' }, ] },
+              { name: 'T250R01SK1', num: [{ name: '409310' },{ name: '1974-11' },{ name: '1974-1' },{ name: '324918-7' }, ] },
               { name: 'T270R01SK1', num: [{ name: '374964' },{ name: '393097' },{ name: '324918-8' },{ name: 'H-20' },] },
               { name: 'T270R01SK2', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' }, ] },
               { name: 'T300R01SK1', num: [{ name: '409263' },{ name: '1974-11' },{ name: '1974-1' }, ] },
@@ -912,13 +941,13 @@ Page({
             product: [
               { name: 'T060R01SK1', num: [{ name: '367369' },{ name: '1974-11' },{ name: '1974-1' },{ name: '358799' },] }, 
               { name: 'T080R01SK1', num: [{ name: '367369' },{ name: '1974-11' },{ name: '1974-1' },{ name: '358799' },] }, 
-              { name: 'T100R01SK1', num: [{ name: '354631' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' },] }, 
+              { name: 'T100R01SK1', num: [{ name: 'H-22' },{ name: '354631' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' },] }, 
               { name: 'T140R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
               { name: 'T160R01SK1', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' }, ] }, 
               { name: 'T180R01SK1', num: [{ name: '374964' },{ name: '393097' },{ name: '324918-8' },{ name: 'H-20' }, ] }, 
               { name: 'T180R01SK2', num: [{ name: '389239' },{ name: '389238' },{ name: 'H-24' }, ] }, 
               { name: 'T220R01SK1', num: [{ name: '393106' },{ name: '1974-10' },{ name: '1974-1' },{ name: '324918-5' },] }, 
-              { name: 'T240R01SK1', num: [{ name: '389212' },{ name: '1974-10' },{ name: '1974-1' },{ name: '324918-7' },] }, 
+              { name: 'T240R01SK1', num: [{ name: '409310' },{ name: '1974-11' },{ name: '1974-1' },{ name: '324918-7' },] }, 
               { name: 'T260R01SK1', num: [{ name: '374964' },{ name: '393097' },{ name: '324918-8' },{ name: 'H-20' }, ] }, 
               { name: 'T260R01SK2', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' }, ] }, 
               { name: 'T300R01SK1', num: [{ name: '409263' },{ name: '1974-11' },{ name: '1974-1' },] }, 
@@ -933,7 +962,7 @@ Page({
               { name: 'T570R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: 'T590R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: 'T610R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
-              { name: 'T650R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
+              { name: 'T650R01SK1', num: [{ name: '389227' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
               { name: 'T670R01SK1', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' }, ] }, 
               { name: 'T690R01SK1', num: [{ name: '376523' },{ name: '1974-12' },{ name: '1974-1' }, ] }, 
               { name: 'T690R01SK2', num: [{ name: '374964' },{ name: '393097' },{ name: '324918-8' },{ name: 'H-20' }, ] }, 
@@ -951,13 +980,13 @@ Page({
               { name: 'T560R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
               { name: 'T580R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
               { name: 'T600R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
-              { name: 'T640R01SK1', num: [{ name: '389227' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' },] }, 
+              { name: 'T640R01SK1', num: [{ name: '389227' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-6' },] }, 
               { name: 'T660R01SK1', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' }, ] }, 
               { name: 'T680R01SK1', num: [{ name: '376523' },{ name: '1974-12' },{ name: '1974-1' }, ] }, 
               { name: 'T680R01SK2', num: [{ name: '374964' },{ name: '393097' },{ name: '324918-8' },{ name: 'H-20' }, ] }, 
               { name: 'T720R01SK1', num: [{ name: '367369' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' }, ] }, 
               { name: 'T740R01SK1', num: [{ name: '409263' },{ name: '1974-11' },{ name: '1974-1' }, ] }, 
-              { name: 'T760R01SK1', num: [{ name: '367369' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' }, ] }, 
+              { name: 'T760R01SK1', num: [{ name: '1973-7' },{ name: '324918-12' },{ name: '1973-1' },{ name: '389291' },{ name: 'H-22' },] }, 
               { name: 'T760R01SK2', num: [{ name: '367369' },{ name: '1974-12' },{ name: '1974-1' },{ name: '324918-7' }, ] }, 
               { name: 'T800R01SK1', num: [{ name: '409263' },{ name: '1974-11' },{ name: '1974-1' }, ] }, 
             ]
@@ -973,7 +1002,7 @@ Page({
             name: 'SIH',
             product: [
               { name: 'J330R01SK1', num: [{ name: '1973-7' },{ name: '1973-1' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-6' }, ] }, 
-              { name: 'J340R01SK1', num: [{ name: '378186' },{ name: '1973-8' },{ name: '1973-1' }, ] }, 
+              { name: 'J340R01SK1', num: [{ name: '378186' },{ name: '1973-8' },{ name: '1973-1' },{ name: '324918-7' }, ] }, 
               { name: 'J340R02SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '1974-1' },] }, 
               { name: 'J350R01SK1', num: [{ name: '378186' },{ name: '1973-8' },{ name: '1973-1' }, ] }, 
               { name: 'J350R02SK1', num: [{ name: '374889' },{ name: '1974-12' },{ name: '1974-1' }, ] }, 
@@ -1130,6 +1159,73 @@ Page({
               { name: 'A470R01SK1', num: [{ name: '389230' },{ name: '1974-13' },{ name: '1974-1' },{ name: '324918-2' }, ] }, 
             ]
           },
+          //CSUV纵梁
+          {
+            name: 'CSUV纵梁',
+            product: [
+              { name: 'B000R01SK1', num: [{ name: '000025' }, { name: '000026' }, ] }, 
+              { name: 'B015R01SK1', num: [{ name: '000025' }, { name: '000026' }, ] }, 
+              { name: 'B020R01SK1', num: [{ name: '000033' }, { name: '000032' }, ] }, 
+              { name: 'B020R02SK1', num: [{ name: '000025' }, { name: '000026' }, ] }, 
+              { name: 'B035R01SK1', num: [{ name: '1974-13' },{ name: '000039' },{ name: '000041' }, { name: '1974-1' },] }, 
+              { name: 'B040R01SK1', num: [{ name: '000014' }, { name: '000013' }, ] }, 
+              { name: 'B055R01SK1', num: [{ name: '1974-12' },{ name: '000018' },{ name: '1974-1' }, ] }, 
+              { name: 'B080R01SK1', num: [{ name: '000014' }, { name: '000013' },] }, 
+             
+            ]
+          },
+            //CSUV前地板
+            {
+              name: 'CSUV前地板',
+              product: [
+                { name: 'B310R01SK1', num: [{ name: '1974-10' }, { name: '1973-4' }, { name: '324918-7' }, { name: '1974-1' }, { name: '1973-1' },] }, 
+                { name: 'B310R01SK2', num: [{ name: '000029' }, { name: '000015' },  ] }, 
+                { name: 'B320R01SK1', num: [{ name: '1974-12' }, { name: '1974-9' }, { name: '395768-6' }, { name: '1974-1' },] }, 
+                { name: 'B340R01SK1', num: [{ name: '1974-12' }, { name: '1974-9' }, { name: '395768-6' }, { name: '1974-1' },] }, 
+                { name: 'B360R01SK1', num: [{ name: '000004' }, { name: '000007' }, ] }, 
+                { name: 'B360R02SK1', num: [{ name: '000004' }, { name: '000007' }, ] }, 
+                { name: 'B360R03SK1', num: [{ name: '1974-13' }, { name: '000001' }, { name: '395768-9' }, { name: '1974-1' },] }, 
+                { name: 'B370R01SK1', num: [{ name: '1974-12' }, { name: '1974-9' }, { name: '395768-6' }, { name: '1974-1' },] }, 
+                { name: 'B390R01SK1', num: [{ name: '1974-13' }, { name: '000008' }, { name: '395768-11' }, { name: '1974-1' },] }, 
+                { name: 'B420R01SK1', num: [{ name: '1974-12' }, { name: '000018' }, { name: '395768-16' }, { name: '1974-1' },] }, 
+                { name: 'B420R02SK1', num: [{ name: '1974-12' }, { name: '000018' }, { name: '395768-16' }, { name: '1974-1' },] }, 
+                { name: 'B430R01SK1', num: [{ name: '000004' }, { name: '000007' }, ] }, 
+                { name: 'B440R01SK1', num: [{ name: '000029' }, { name: '000015' }, ] }, 
+                { name: 'B470R01SK1', num: [{ name: '000004' }, { name: '000007' }, ] }, 
+              ]
+            },
+             //CSUV后地板
+             {
+              name: 'CSUV后地板',
+              product: [
+                { name: 'B760R01SK1', num: [{ name: '1974-12' }, { name: '000018' },{ name: '1974-1' }, ] }, 
+                { name: 'B780R01SK1', num: [{ name: '1974-13' }, { name: '000039' },{ name: '000041' },{ name: '1974-1' }, ] }, 
+                { name: 'B810R01SK1', num: [{ name: '1974-13' }, { name: '000001' },{ name: '1974-1' }, ] }, 
+                { name: 'B810R02SK1', num: [{ name: '1974-13' }, { name: '000001' },{ name: '1974-1' }, ] }, 
+                { name: 'B820R01SK1', num: [{ name: '1974-12' }, { name: '000045' },{ name: '324918-9' },{ name: '1974-1' }, ] }, 
+                { name: 'B830R01SK1', num: [{ name: '1974-12' }, { name: '000018' },{ name: '1974-1' }, ] }, 
+                { name: 'B860R01SK1', num: [{ name: '1974-11' }, { name: '1974-12' },{ name: '000047' },{ name: '1974-1' }, ] }, 
+                { name: 'B880R01SK1', num: [{ name: '1974-13' }, { name: '000001' },{ name: '1974-1' }, ] }, 
+              
+              ]
+            },
+             //CSUV水箱
+             {
+              name: 'CSUV水箱',
+              product: [
+                { name: 'F450R01SK1', num: [{ name: '1974-13' }, { name: '1974-10' },{ name: '324918-9' },{ name: '1974-1' }, ] }, 
+                { name: 'F460R01SK1', num: [{ name: '000029' }, { name: '000015' }, ] }, 
+                { name: 'F490R01SK1', num: [{ name: '000029' }, { name: '000015' }, ] }, 
+                { name: 'F470R01SK1', num: [{ name: '1974-13' }, { name: '000039' },{ name: '000041' },{ name: '1974-1' }, ] }, 
+                { name: 'F500R01SK1', num: [{ name: '000029' }, { name: '000015' }, ] }, 
+                { name: 'F510R01SK1', num: [{ name: '000029' }, { name: '000015' }, ] }, 
+                { name: 'F540R01SK1', num: [{ name: '000022' }, { name: '000021' }, ] }, 
+                { name: 'F540R01SK1', num: [{ name: '1974-13' }, { name: '000039' },{ name: '000041' },{ name: '1974-1' }, ] }, 
+                { name: 'F530R01SK1', num: [{ name: '1974-12' }, { name: '000018' },{ name: '1974-1' }, ] }, 
+                { name: 'F550R01SK1', num: [{ name: '1974-13' }, { name: '000001' },{ name: '1974-1' }, ] }, 
+              
+              ]
+            },
         ]
       },
     ],
@@ -1153,6 +1249,7 @@ Page({
 
   //多列自创选择器换列方法
   bindCustomPickerColumnChange: function (e) {
+    console.log(e)
     var customArray = this.data.customArray,
       customIndex = this.data.customIndex,
       onlyArray = this.data.onlyArray;
@@ -1239,8 +1336,9 @@ Page({
       
     if (label1 != '' & that.data.onlyArray[0][customIndex[0]] != '' & reason != ''& changebody != '') {
 wx.request({
-url: 'https://www.zqzqsmile.xyz/genghuan/login',
+url: 'https://www.liuke.xyz/electrode/login',
 data:{
+    code:'exchange',
     label1:label1,
     section:that.data.onlyArray[0][customIndex[0]],
     area:that.data.onlyArray[1][customIndex[1]],

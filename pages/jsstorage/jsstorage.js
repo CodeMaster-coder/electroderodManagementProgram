@@ -16,8 +16,9 @@ Page({
     var that = this;//把this对象复制到临时变量that，解决作用域不够的问题
 
     wx.request({
-          url: 'https://www.zqzqsmile.xyz/jsstorage2/login',
-          data:{
+      url: 'https://www.liuke.xyz/electrode/login',
+      data:{
+        code:'jsstorage',
             order:JSON.stringify('t9.storage')},
           method:'POST',
           header: {
@@ -68,8 +69,9 @@ for(var i=0;i<obj.length;i++)
     storageStatus:[]
     });
     wx.request({
-          url: 'https://www.zqzqsmile.xyz/jsstorage2/login',
-          data:{
+      url: 'https://www.liuke.xyz/electrode/login',
+      data:{
+        code:'jsstorage',
             order:JSON.stringify('t9.storage')},
           method:'POST',
           header: {
@@ -120,8 +122,9 @@ for(var i=0;i<obj.length;i++)
     storageStatus:[]
     });
     wx.request({
-          url: 'https://www.zqzqsmile.xyz/jsstorage2/login',
-          data:{
+      url: 'https://www.liuke.xyz/electrode/login',
+      data:{
+        code:'jsstorage',
             order:JSON.stringify('t9.saftyStorage')},
           method:'POST',
           header: {
@@ -173,8 +176,9 @@ for(var i=0;i<obj.length;i++)
     storageStatus:[]
     });
     wx.request({
-          url: 'https://www.zqzqsmile.xyz/jsstorage2/login',
+          url: 'https://www.liuke.xyz/electrode/login',
           data:{
+            code:'jsstorage',
             order:JSON.stringify('t9.storageStatusCode')},
           method:'POST',
           header: {
